@@ -1,0 +1,30 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Inconsolata:wght@200..900&family=Jersey+10+Charted&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+}
+li{
+    border: 2px solid white;
+    padding:2rem;
+    transition: transform 350ms ease-in-out;
+}
+li:hover{
+   /* transform: translate(100px,100px);*/
+    /*transform:scale(2);*/
+   /*transform: skew(20deg);*/
+   transform: rotateX(720deg);
+}
+a{
+    color: white;
+    font-size: 2rem;
+    transition: color 350ms ease-in-out;
+}
+a:hover{
+color:blueviolet;
+
+}
